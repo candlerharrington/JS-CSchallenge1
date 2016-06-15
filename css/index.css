@@ -1,0 +1,64 @@
+//---------------------------------TableStyleSheet--------------
+.table
+{
+    margin: auto;
+}
+li 
+{
+    list-style-type: none;
+    text-align: center;
+}
+span 
+{
+    display: inline-block;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px 10px 30px 10px;
+    width: 70px;
+    margin-right: -10px;
+}
+.cellname
+{
+    display: table-cell;
+    border: 1px solid black;
+    background-color: red;
+}
+.cellplace
+{
+    display: table-cell; 
+    border: 1px solid black;
+    background-color: aqua;
+}
+.cellthing{
+    display: table-cell; 
+    border: 1px solid black;
+    background-color: yellow;
+}
+//---------------------------------ListStyleSheet---------------
+.list
+{
+    margin: auto;
+    display: table;
+    width: 100%;
+}
+.cell
+{ 
+    display: table-cell; 
+    border: 1px solid black;
+    text-align: left;
+    width: 100%;
+}
+.row
+{
+    display: table-row;
+    
+}
+//-------------------------------LinksStyleSheet-------------
+.links
+{
+    text-align: left;
+}
+.linkList
+{
+    list-style-type: decimal;
+}
